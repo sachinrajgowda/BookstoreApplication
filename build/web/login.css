@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 23, 2016, 1:35:53 AM
+    Author     : sachin
+*/
+            input[type=email],input[type=password],input[type=text], select {
+                padding: 14px 20px;
+                width: 100%;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                box-sizing: border-box;
+            }
+            input[type=submit] {
+                width: 50%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+            .logina {
+                text-decoration: none;
+                font-size: 15px;
+
+            }
+            .logindiv {
+                width:50%;
+                margin: 0px auto;
+                border-radius: 10px;
+                background-color: #20e167;
+                padding: 10px;
+                width:40%;
+            }
+            .panel{
+                margin-bottom:20px;
+                background-color:#fff;
+                border:1px solid transparent;
+                border-radius:4px;
+                -webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);
+                box-shadow:0 1px 1px rgba(0,0,0,.05)
+            }
+            .panel-body{
+                padding:15px
+            }
+            .panel-default{
+                border-color:#ddd
+            }
